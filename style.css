@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Lato;
+}
+
+#navbar{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5vh;
+    width: 100%;
+    background-color: rgb(114, 175, 233);
+    position: fixed;
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+}
+
+.nav-item{
+    text-decoration: none;
+    padding-right: 30px;
+    font-size: 25px;
+    color: rgb(4, 12, 24);
+    font-weight: 700;
+}
+#welcome-section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(4, 12, 24);
+
+}
+h1{
+    color: white;
+    font-weight: 700;
+    font-size: 90px;
+}
+p{
+    color:rgb(114, 175, 233);
+    font-weight: 50;
+    font-size: 35px;
+}
+#projects{
+    padding-top:50px ;
+}
+.subtitulo{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-proyectos{
+    font-size: 50px;
+    border-bottom: 0.2rem solid
+}
+
+#project-title{
+
+    width: 400px;
+    height: 300px;
+    background-color: rgb(4, 12, 24);
+    margin: 50px;
+    border: black 1px solid;
+    
+}
+
+.galeria{
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    width: 400px;
+    height: auto;
+}
+#profile-link{
+    text-decoration: none;
+
+}
+.titulos-proyectos{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#contact{
+    background-color: rgb(4, 12, 24);
+    height: 100vh;
+}
+.titulo-contacto{
+    padding-top: 50px;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+@media (max-width:662px){
+
+    h1{
+        text-align: center;
+    }
+
+}
