@@ -11,44 +11,106 @@
 <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav id="navbar">
-        <ul class="nav-items">
-            <li><a href="#welcome-section" class="nav-item">About</a></li>
-            <li><a href="#projects" class="nav-item">Proyectos</a></li>
-            <li><a href="#contact" class="nav-item">Contacto</a></li>
-        </ul>
-        
-    </nav>
-
-    <section id="welcome-section">
-        <h1>Nicolás Córdoba</h1>
-        <p>Geologist and Frontend Webdev</p>
-    </section>
-
-    <section id="projects">
-
-        <div class="subtitulo">
-            <h2 class="titulo-proyectos">Mis Proyectos</h2>
-        </div>
-
-        <div class="galeria">
-
-            <div id="project-title">
-                <a href="https://codepen.io/geopycanicro/pen/VwWvbOK" target="_blank" id="profile-link">
+    <header>
+        <nav id="navbar">
+            <ul class="nav-items">
+                <li><a href="#welcome-section" class="nav-item">Sobre mí</a></li>
+                <li><a href="#projects" class="nav-item">Proyectos</a></li>
+                <li><a href="#contact" class="nav-item">Tecnologías</a></li>
+            </ul>
+            
+        </nav>
     
-                    <img src="./images/tribute-page-main-image.jpg" alt="Tribute Page">
-                    <div class="titulos-proyectos">Tribute Page</div>
-                
-                </a>
-    
-    
+        <section id="welcome-section">
+            <div class="profile-pic">
+                <img src="./images/profile-pic.png" alt="foto de perfil de Nicolas Cordoba">
+            </div>
+            
+            <h1>Nicolás Córdoba</h1>
+
+            <p class="short-description">Geologist and Frontend Webdev</p>
+
+            <div class="form">
+
+                <input class="input-bar" type="text" placeholder="Escribe tu e-mail acá">
+
+                <button class="boton-enviar"><span class="icono-avion"></span></button>
+
             </div>
 
-        </div>
+            
+        </section>
+
+        <button class="conocer-mas">Saber más</button>
 
 
+    </header>
 
-    </section>
+    <main>
+        <section id=about-me>
+
+            <p class="long-description">Geólogo enfocado en la industria de los hidrocarburos con experiencia trabajando con registros de pozo y sísmica. Ganador Regional del IBA 2019. Presidente del capítulo estudiantil AAPG 2020. He desempeñado cargos de procesamiento y carga de datos de distinto tipo usando software especializado integrando análisis de datos con programación. Apasionado por el diseño gráfico, el aprendizaje continuo y las nuevas tecnologías. Actualmente en el aprendizaje de las tecnologías para el desarrollo web.</p>
+
+            <img src="./images/iba-2019.jpg" alt="ganadores AAPG IBA 2019 regional">
+
+        </section>
+
+        <section id="projects">
+
+            <div class="subtitulo">
+                <h2 class="titulo-proyectos">Mis Proyectos</h2>
+            </div>
+    
+            <div class="galeria">
+    
+                <div id="project-title">
+                    <a href="https://codepen.io/geopycanicro/pen/VwWvbOK" target="_blank" id="profile-link">
+        
+                        <img src="./images/tribute-page-main-image.jpg" alt="Tribute Page">
+                        <div class="titulos-proyectos">Tribute Page</div>
+                    
+                    </a>       
+        
+                </div>
+
+                <div id="project-title">
+                    <a href="https://codepen.io/geopycanicro/pen/VwWvbOK" target="_blank" id="profile-link">
+        
+                        <img src="./images/tribute-page-main-image.jpg" alt="Tribute Page">
+                        <div class="titulos-proyectos">Tribute Page</div>
+                    
+                    </a>       
+        
+                </div>
+
+                <div id="project-title">
+                    <a href="https://codepen.io/geopycanicro/pen/VwWvbOK" target="_blank" id="profile-link">
+        
+                        <img src="./images/tribute-page-main-image.jpg" alt="Tribute Page">
+                        <div class="titulos-proyectos">Tribute Page</div>
+                    
+                    </a>       
+        
+                </div>
+    
+            </div>
+    
+    
+    
+        </section>
+
+        <section id="software">
+            <h2>Software Skills</h2>
+
+            <div class="software-card">
+                <div class="software-card-title">
+                    Officte Suite
+                </div>
+                <span class="word"></span>
+            </div>
+        </section>
+
+    </main>
 
     <footer id="contact"> 
 

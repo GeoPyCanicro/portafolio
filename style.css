@@ -1,10 +1,24 @@
+:root{
+    --cool-blue: rgb(4, 12, 24);
+    --dark-blue: rgb(2, 6, 12);
+    --light-blue: rgb(114, 175, 233);
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: Lato;
 }
 
+html{
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: var(--cool-blue);
+}
 #navbar{
     
     display: flex;
@@ -12,8 +26,9 @@
     align-items: center;
     height: 5vh;
     width: 100%;
-    background-color: rgb(114, 175, 233);
-    position: fixed;
+    background-color: var(--dark-blue);
+    position: absolute;
+    margin-right: 30px;
 }
 
 .nav-items{
@@ -23,61 +38,144 @@
 
 .nav-item{
     text-decoration: none;
-    padding-right: 30px;
-    font-size: 25px;
-    color: rgb(4, 12, 24);
+    padding: 0 10px 0 10px;
+    font-size: 1.4rem;
+    color: #fff;
     font-weight: 700;
 }
 #welcome-section{
-    height: 100vh;
+    height: 450px;
     display: flex;
-    justify-content: center;
+   
     align-items: center;
     flex-direction: column;
     background-color: rgb(4, 12, 24);
 
 }
+
+.profile-pic img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 120px;
+    margin-bottom: 15px;
+
+}
 h1{
     color: white;
     font-weight: 700;
-    font-size: 90px;
+    font-size: 2.4rem;
 }
-p{
-    color:rgb(114, 175, 233);
+.short-description{
+    color:var(--light-blue);
     font-weight: 50;
-    font-size: 35px;
+    font-size: 2rem;
+    margin-top: 5px;
 }
-#projects{
-    padding-top:50px ;
+.form{
+    display: flex;
+    margin-top: 30px;
 }
-.subtitulo{
-    margin: 30px;
+.input-bar{
+    min-width: 250px;
+    max-width: 600px;
+    border-radius: 15px;
+    padding-left: 10px;
+    border: none;
+
+}
+.boton-enviar{
+    width: 30px;
+    height: 30px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--light-blue);
+
+}
+.icono-avion{
+    
+    width: 20px;
+    height: 20px;
+    background-image: url('./images/paper-plane-solid.svg');
 }
 
-.titulo-proyectos{
-    font-size: 50px;
-    border-bottom: 0.2rem solid
+.conocer-mas{
+    position: relative;
+    bottom: -15px;
+    left: calc(50% - 75px);
+    font-family: 'Lato';
+    width: 150px;
+    height: 30px;
+    background-color: var(--light-blue);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.4rem;
+    font-weight: bold;
+
+}
+
+#about-me{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.long-description{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin: 40px 10px;
+    min-width: 280px;
+    max-width: 560px;    
+
+}
+
+#about-me img{
+    padding: 50px 20px;
+    min-width: 280px;
+    max-width: 450px;
+    height: auto;
+}
+
+
+#projects{
+    padding-top:30px ;
+    background-color: var(--cool-blue);
+}
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.subtitulo h2{
+    color:#fff;
+    font-size: 2.4rem;
+    border-bottom: 0.2rem solid white;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #project-title{
 
-    width: 400px;
-    height: 300px;
-    background-color: rgb(4, 12, 24);
+    width: 280px;
+    height: auto;
+    background-color: var(--dark-blue);
     margin: 50px;
     border: black 1px solid;
     
 }
 
-.galeria{
-    display: flex;
-    justify-content: space-around;
-}
 
-img{
-    width: 400px;
+
+#project-title img{
+    width: 280px;
     height: auto;
 }
 #profile-link{
@@ -90,7 +188,11 @@ img{
     padding: 10px;
     font-size: 20px;
 }
-
+#software{
+    background-color: #fff;
+    width: 100%;
+    height: 500px;
+}
 #contact{
     background-color: rgb(4, 12, 24);
     height: 100vh;
@@ -100,12 +202,4 @@ img{
     font-size: 50px;
     color: white;
     text-align: center;
-}
-
-@media (max-width:662px){
-
-    h1{
-        text-align: center;
-    }
-
 }
