@@ -17,14 +17,15 @@ html{
 }
 
 header{
-    background-color: var(--cool-blue);
+    background-color: var(--dark-blue);
+    
 }
 #navbar{
     
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 5vh;
+    height: 80px;
     width: 100%;
     background-color: var(--dark-blue);
     position: absolute;
@@ -46,10 +47,8 @@ header{
 #welcome-section{
     height: 450px;
     display: flex;
-   
     align-items: center;
     flex-direction: column;
-    background-color: rgb(4, 12, 24);
 
 }
 
@@ -98,25 +97,43 @@ h1{
 }
 .icono-avion{
     
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     background-image: url('./images/paper-plane-solid.svg');
 }
 
 .conocer-mas{
     position: relative;
-    bottom: -15px;
+    bottom: -20px;
     left: calc(50% - 75px);
     font-family: 'Lato';
     width: 150px;
-    height: 30px;
-    background-color: var(--light-blue);
+    height: 40px;
+    background-color: #FF6712;
     border: none;
     border-radius: 5px;
     font-size: 1.4rem;
     font-weight: bold;
+    color: white;
+    cursor: pointer;
 
 }
+
+.button-up{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    position: fixed;
+    right: 8px;
+    background-color: #386FC1;
+    background-image: url('./images/arrow-up.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    
+}
+
 
 #about-me{
     display: flex;
@@ -128,7 +145,7 @@ h1{
 .long-description{
     font-size: 1.4rem;
     line-height: 1.8rem;
-    margin: 40px 10px;
+    margin: 20px 10px;
     min-width: 280px;
     max-width: 560px;    
 
