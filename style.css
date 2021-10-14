@@ -123,6 +123,7 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding: 20px 10px 20px 10px;
 }
 .long-description{
     font-size: 1.4rem;
@@ -134,7 +135,6 @@ h1{
 }
 
 #about-me img{
-    padding: 50px 20px;
     min-width: 280px;
     max-width: 450px;
     height: auto;
@@ -142,6 +142,8 @@ h1{
 
 
 #projects{
+    width: 100%;
+    min-width: 320px;
     padding-top:30px ;
     background-color: var(--cool-blue);
 }
@@ -192,6 +194,110 @@ h1{
     background-color: #fff;
     width: 100%;
     height: 500px;
+    
+}
+#software h2{
+    margin: 20px 0 20px 10px;
+}
+
+.software-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.software-card{
+    
+    color: white;
+    min-width: 160px;
+    margin: 0 15px 0 15px;
+    height: 160px;
+    border-radius: 5px;
+    box-shadow:rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.software-card-coding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #386FC1;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px 5px 0 0;
+}
+
+.icons{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px 10px;
+    justify-self: center;
+    justify-items: center;
+    
+}
+
+#python{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url('./images/python-logo.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#javascript{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url('./images/js-logo.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#css{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url('./images/css-logo.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#html{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url('./images/html-logo.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.software-card-geology{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #20A970;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px 5px 0 0;
+}
+
+.software-card-extra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FF6712;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px 5px 0 0;
 }
 #contact{
     background-color: rgb(4, 12, 24);
