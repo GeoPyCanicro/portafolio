@@ -170,6 +170,34 @@ form{
     max-width: 560px;    
 
 }
+.link-descarga{
+    display: flex;
+    align-items: flex-end;
+    border-bottom: solid 1px black;
+    margin-bottom: 20px;
+    width: 150px;
+}
+.cv-pdf-logo{
+    display: inline-block;
+    width: 20px;
+    height:20px;
+    background-image: url('./images/pdf-logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cv-text {
+    display: inline-block;
+    color: black;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    
+}
+
+.cv-text a{
+    text-decoration: none;
+    color: black;    
+}
 
 #about-me img{
     min-width: 280px;
