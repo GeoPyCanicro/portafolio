@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portafolio de Nicolás Córdoba, geólogo colombiano aprendiendo códigos y lenguajes de programación. Ha trabajado en software especializado de la industria de los hidrocarburos y así mismo trabajado con lenguajes como python, javascript, html y css"> 
-    <title>Portafolio: Nicolas Cordoba</title>
+    <title>Nicolas Cordoba  - Data Scientist</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,20 +17,19 @@
     <header>
         <nav id="navbar">
             <ul class="nav-items">
-                <li><a href="#about-me" class="nav-item">Sobre mí</a></li>
+                <li><a href="#geology-history" class="nav-item">Sobre mí</a></li>
                 <li><a href="#projects" class="nav-item">Proyectos</a></li>
                 <li><a href="#software" class="nav-item">Tecnologías</a></li>
             </ul>
             
         </nav>
-    
+    <div class="header-full">
         <section id="welcome-section">
 
             <div class="profile-pic">
                 <img src="./images/profile-pic.png" alt="foto de perfil de Nicolas Cordoba">
             </div>
             
-            <h1>Nicolás Córdoba</h1>
 
             <div class="social-network-icons">
                 <a href="https://www.linkedin.com/in/geonicolascordoba/" target="__blank"><span class="social-network-icon" id="linkedin-icon"></span></span></a>
@@ -38,19 +37,20 @@
                 <a href="https://www.instagram.com/nicolasco97/" target="__blank"><span class="social-network-icon" id="instagram-icon"></span></a>
             </div>
 
-            <p class="short-description">Geologist and Frontend Webdev</p>
-
-            <form action="https://formsubmit.co/nicolascordoba97@hotmail.com" method="post">
-
-                <input class="input-bar" type="email" name="email" placeholder="Escribe tu e-mail acá" autocomplete="email">
-                <button class="boton-enviar"><span class="icono-avion"></span></button>
-
-            </form>
-
+            
             
         </section>
+        <section id=about-me>
+            <h1>Hola! Soy Nicolás Córdoba</h1>
+            <p class="short-description">Geólogo y Científico de Datos</p>
+            <div class="about-me-text">
+                <p class="long-description">Hola! soy Geólogo con experiencia en caracterización de yacimientos, explorando la ciencia de datos. Estudiante activo de Platzi y CorrelationOne en el programa Data Science 4 All. Durante el desarrollo de estos programas he profundizado mi conocimiento en Python, SQL, estadística descriptiva y probabilística además de explorar temas como Analisis exploratorio de datos y técnicas avanzadas como Machine Learning.</p>
 
-        <a class= 'first-ca' href="#about-me"> <button class="conocer-mas"> Saber más</button></a>
+        </section>
+    </div>
+
+
+        <a class= 'first-ca' href="#geology-history"> <button class="conocer-mas"> Saber más</button></a>
 
 
     </header>
@@ -58,14 +58,12 @@
     <main>
         
 
-        <section id=about-me>
+        <section id=geology-history>
             <div class="about-me-text">
-                <p class="long-description">Soy un geólogo enfocado en la industria de los hidrocarburos con experiencia trabajando con registros de pozo y sísmica. Ganador Regional del IBA 2019. Presidente del capítulo estudiantil AAPG 2020. He desempeñado cargos de procesamiento y carga de datos de distinto tipo usando software especializado integrando análisis de datos con programación. Apasionado por el diseño gráfico, el aprendizaje continuo y las nuevas tecnologías. Actualmente en el aprendizaje de las tecnologías para el desarrollo web.</p>
-
-                <div class="link-descarga">
-                    <a href="https://github.com/GeoPyCanicro/documentos/blob/main/CV%20Geologo%20Nicolas%20Cordoba.pdf" target="__blank"><span class='cv-pdf-logo'></span> </a>
-                    <p class="cv-text"><a href="https://github.com/GeoPyCanicro/documentos/blob/main/CV%20Geologo%20Nicolas%20Cordoba.pdf" target="__blank">Descarga acá mi CV </a> </p>     
-                </div>
+                <p class="long-description">Como estudiante de Geología me enfoqué en la caracterización de yacimientos con petrofísica, geomecánica y geofísica integrando la mayor cantidad de datos para obtener mis modelos. De esta forma obtuve la máxima calificación en mi tesis de pregrado. A su vez, formé parte del capítulo de la AAPG donde quedé finalista en 2019 en la competencia IBA y en 2020 fui su presidente liderando actividades y participando del AAPG Leadership Summit en el mismo año. Mis últimos años en la universidad los dediqué a compartir lo aprendido.
+                </p>
+                <p class="long-description">Mi experiencia laboral ha estado muy cercana a los datos desde la parte de geología trabajando principalmente con tablas de Excel y Python. Adicionalmente me encanta el diseño gráfico y el desarrollo web, puedes encontrar algunos proyectos más abajo
+                </p>
 
             </div>
             
@@ -139,7 +137,30 @@
                     </div>
                     
                 </article>
-
+                <article class="software-card">
+                    <div class="software-card-libraries">
+                      <h3>Data Science Libraries</h3>  
+                    </div>
+                    <div class="icons">
+                        <span class="software" id="pandas"></span>
+                        <span class="software" id="numpy"></span>
+                        <span class="software" id="seaborn"></span>
+                        <span class="software" id="statsmodel"></span>
+                    </div>
+                    
+                </article>
+                <article class="software-card">
+                    <div class="software-card-extra">
+                      <h3>Other Tools</h3>  
+                    </div>
+                    <div class="icons">
+                        <span class="software" id="git"></span>
+                        <span class="software" id="github"></span>
+                        <span class="software" id="figma"></span>
+                        <span class="software" id="illustrator"></span>
+                    </div>
+                    
+                </article>
                 <article class="software-card">
                     <div class="software-card-geology">
                       <h3>Geology Software</h3>  
@@ -153,18 +174,6 @@
                    
                 </article>
 
-                <article class="software-card">
-                    <div class="software-card-extra">
-                      <h3>Other Tools</h3>  
-                    </div>
-                    <div class="icons">
-                        <span class="software" id="git"></span>
-                        <span class="software" id="github"></span>
-                        <span class="software" id="figma"></span>
-                        <span class="software" id="illustrator"></span>
-                    </div>
-                    
-                </article>
 
             </section>
 

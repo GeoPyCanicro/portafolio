@@ -44,8 +44,15 @@ header{
     color: #fff;
     font-weight: 700;
 }
+
+.header-full{
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 #welcome-section{
-    height: 450px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -53,27 +60,21 @@ header{
 }
 
 .profile-pic img{
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 50%;
-    margin-top: 120px;
-    margin-bottom: 15px;
 
 }
-h1{
-    color: white;
-    font-weight: 700;
-    font-size: 2.4rem;
-}
+
 .social-network-icon{
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 5px 5px 0 5px;
+    margin: 5px 10px 0 10px;
 }
 .social-network-icons #linkedin-icon{
     background-image: url('./images/linkedin-icon.png');
@@ -84,41 +85,36 @@ h1{
 .social-network-icons #instagram-icon{
     background-image: url('./images/instagram-icon.png');
 }
+
+
+#about-me{
+    display: flex;
+    color: white;
+    margin-top: 20px;
+    padding: 20px 10px 20px 10px;
+    flex-direction: column;
+}
+
+h1{
+    color: white;
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+
 .short-description{
     color:var(--light-blue);
     font-weight: 50;
     font-size: 2rem;
     margin-top: 5px;
 }
-form{
-    display: flex;
-    margin-top: 30px;
-}
-.input-bar{
-    min-width: 250px;
-    max-width: 600px;
-    border-radius: 15px;
-    padding-left: 10px;
-    border: none;
 
-}
-.boton-enviar{
-    width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    border: none;
-    background-color: var(--light-blue);
-    cursor: pointer;
+.long-description{
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    margin-top: 20px;
+    min-width: 280px;
+    max-width: 560px;    
 
-}
-.icono-avion{
-    
-    width: 15px;
-    height: 15px;
-    background-image: url('./images/paper-plane-solid.svg');
 }
 
 .conocer-mas{
@@ -154,54 +150,19 @@ form{
     
 }
 
-
-#about-me{
+#geology-history{
+    padding: 20px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 20px 10px 20px 10px;
+    flex-direction: column;
 }
-.long-description{
-    font-size: 1.4rem;
-    line-height: 1.8rem;
-    margin: 20px 10px;
-    min-width: 280px;
-    max-width: 560px;    
 
-}
-.link-descarga{
-    display: flex;
-    align-items: flex-end;
-    border-bottom: solid 1px black;
+.about-me-text{
     margin-bottom: 20px;
-    width: 150px;
-}
-.cv-pdf-logo{
-    display: inline-block;
-    width: 20px;
-    height:20px;
-    background-image: url('./images/pdf-logo.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.cv-text {
-    display: inline-block;
-    color: black;
-    font-size: 1.4rem;
-    line-height: 1.8rem;
-    
 }
 
-.cv-text a{
-    text-decoration: none;
-    color: black;    
-}
-
-#about-me img{
+#geology-history img{
     min-width: 280px;
-    max-width: 450px;
+    max-width: 480px;
     height: auto;
 }
 
@@ -382,6 +343,8 @@ form{
     height: 30px;
     border-radius: 5px 5px 0 0;
 }
+
+
 #git{
     background-image: url('./images/git-logo.png');
 }
@@ -399,6 +362,30 @@ form{
 #illustrator{
     background-image: url('./images/illustrator-logo.png');
 }
+
+.software-card-libraries{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8e44ad;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px 5px 0 0;
+}
+
+#pandas{
+    background-image: url('./images/pandas.png');
+}
+#numpy{
+    background-image: url('./images/numpy.png');
+}
+#seaborn{
+    background-image: url('./images/seaborn.png');
+}
+#statsmodel{
+    background-image: url('./images/statsmodel.svg');
+}
+
 #contact{
     display: flex;
     justify-content: center;

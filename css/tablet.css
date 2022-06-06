@@ -1,3 +1,15 @@
+.header-full{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#geology-history{
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .software-cards{
     justify-content: center;
 }
