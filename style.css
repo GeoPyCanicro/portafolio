@@ -35,6 +35,7 @@ header{
 .nav-items{
     display: flex;
     list-style: none;
+    align-items: center;
 }
 
 .nav-item{
@@ -44,7 +45,28 @@ header{
     color: #fff;
     font-weight: 700;
 }
+#cv-button{
+    background-color: var(--dark-blue);
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    align-self: center;
+}
 
+@keyframes glowing{
+    0% {
+        background-color: var(--dark-blue);
+    }
+    100% {
+        background-color: var(--light-blue);
+    }
+}
+#cv-button{
+    animation: glowing 3000ms infinite;
+    animation-direction: alternate;
+}
 .header-full{
     padding-top: 90px;
     display: flex;
