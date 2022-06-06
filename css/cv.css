@@ -1,0 +1,76 @@
+:root{
+    --cool-blue: rgb(4, 12, 24);
+    --dark-blue: rgb(2, 6, 12);
+    --light-blue: rgb(114, 175, 233);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Source Sans Pro', sans-serif;
+    scroll-behavior: smooth;
+    background-color: var(--cool-blue);
+}
+
+.main-container{
+    background-color: white;
+    border-radius: 15px;
+    margin: 50px auto;
+    padding: 50px;
+    max-width:900px
+}
+
+h1{
+    font-size: 2.4rem;
+}
+
+h2{
+    font-size: 1.8rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+p{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+ul{
+    padding-left: 20px; 
+}
+
+li{
+    padding-top: 10px;
+}
+
+section{
+    padding-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    display: inline-block;
+    height: 40px;
+}
+
+a span{
+    background-image: url(/images/arrow-up.png);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    transform: rotate(270deg);
+    background-position: center; 
+    position:relative;
+    top: 35%;
+}
