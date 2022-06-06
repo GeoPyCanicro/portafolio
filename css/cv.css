@@ -64,7 +64,7 @@ a{
 }
 
 a span{
-    background-image: url(/images/arrow-up.png);
+    background-image: url(../images/arrow-up.png);
     width: 40px;
     height: 40px;
     display: inline-block;
