@@ -31,6 +31,8 @@ h1{
 
 h2{
     font-size: 1.8rem;
+    display: flex;
+    align-items: center;
 }
 
 h3{
@@ -74,3 +76,9 @@ a span{
     position:relative;
     top: 35%;
 }
+
+.attach-logo {
+    transform:rotate(45deg)
+    scale(0.5);
+}
+
