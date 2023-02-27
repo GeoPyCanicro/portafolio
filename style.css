@@ -272,6 +272,7 @@ h1{
     height: 200px;
     border-radius: 5px;
     box-shadow:rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
 }
 
 .software-card-coding{
@@ -398,14 +399,14 @@ h1{
 #pandas{
     background-image: url('./images/pandas.png');
 }
-#numpy{
-    background-image: url('./images/numpy.png');
+#sql{
+    background-image: url('./images/postgres.png');
 }
-#seaborn{
-    background-image: url('./images/seaborn.png');
+#tableau{
+    background-image: url('./images/tableau.png');
 }
-#statsmodel{
-    background-image: url('./images/statsmodel.svg');
+#scikit{
+    background-image: url('./images/scikit.png');
 }
 
 #contact{
